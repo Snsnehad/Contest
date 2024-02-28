@@ -1,0 +1,31 @@
+.third-page-container {
+    opacity: 0;
+    animation: fadeInAnimation 1s forwards;
+  }
+  
+  @keyframes fadeInAnimation {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    z-index: -1;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    opacity: 0.7;
+  }
+  
+  .content-container {
+    position: relative;
+  }
+  
